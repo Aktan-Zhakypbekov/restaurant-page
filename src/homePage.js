@@ -14,8 +14,7 @@ function homePageFunction() {
 
   let homeContainerText = document.createElement("div");
   homeContainerText.id = "homeContainerText";
-  homeContainerText.textContent = `Best tasty chickens, with love, for you.
-  Use our order service or bring your friends and family to have the best time in your life`;
+  homeContainerText.textContent = `The finest ingredients are brought together with love and care, then slow cooked to perfection. Yes, the old ways are still best at Los Pollos Hermanos. But don't take my word for it. One taste, and you'll know.`;
   homeContainer.appendChild(homeContainerText);
 
   let main = document.querySelector("#main");

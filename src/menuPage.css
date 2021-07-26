@@ -1,5 +1,5 @@
 #menuContainer {
-  background-color: green;
+  background-color: rgb(18, 85, 85);
   width: 1200px;
   height: 650px;
   display: grid;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 .menuDishes {
-  background-color: rgb(5, 68, 68);
+  background-color: yellow;
   width: 270px;
   height: 270px;
 }
