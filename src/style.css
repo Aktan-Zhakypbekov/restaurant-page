@@ -1,0 +1,51 @@
+#content {
+  height: 1000px;
+  background-color: rgb(39, 163, 136);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 9fr 1fr;
+}
+#nav {
+  background-color: brown;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+#navPoster {
+  background-color: rgb(223, 223, 41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navPosterImg {
+  background-color: rgb(223, 223, 41);
+  width: 800px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: rgb(143, 37, 37);
+}
+#navBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.navBarButtons {
+  border-radius: 0%;
+  background-color: rgb(27, 79, 146);
+}
+#main {
+  background-image: url("https://i.dailymail.co.uk/i/pix/2017/03/31/17/3ED0D36E00000578-0-image-a-137_1490976105336.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer {
+  background-color: rgb(8, 80, 114);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(143, 37, 37);
+}
